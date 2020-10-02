@@ -20,7 +20,7 @@ The WIDER-FACE dataset is needed, download and unzip to datset directory such as
     ---WIDER_train  
     ---WIDER_val   
 ```
-First train PNet, then RNet and finally ONet. The dataset process part reference at [repo](https://github.com/beichen2012/mtcnn-pytorch). Steps list:  
+First train PNet, then RNet and finally ONet . The dataset process part reference at [repo](https://github.com/beichen2012/mtcnn-pytorch). Steps list follow this:  
 **1. Generate PNet data**
 ```
 python generate_data\Generate_PNet_data.py
